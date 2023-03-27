@@ -1,0 +1,7 @@
+Polimorfizm dynamiczny - "nadpisywanie" funkcji klasy bazowej przez funkcję klasy potomnej. Na etapie kompilacji nie jesteśmy w stanie przewidzieć, która wersja metody zostanie wywołana.
+
+Polimorfizm statyczny - wersję metody można przewidzieć na etapie kompilacji, ponieważ zależy ona od typów lub ilości argumentów funckji.
+
+Klasa abstrakcyjna - klasa posiadająca co najmniej jedną metodę czysto wirtualną. Nie można stworzyć jej instancji. Służy jako "szablon" dla klas potomnych.
+
+Funkcja wirtualna - metoda poprzedzona słowem kluczowym "virtual". Jest ona nadpisywana w klasach pochodnych.
